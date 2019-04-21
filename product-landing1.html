@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ink Credible Co.</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+      body {
+        background-color: powderblue;
+      }
+
+      @media screen and (min-width: 800px) {
+        body {
+          background-color: papayawhip;
+        }
+      }
+
+      #header {
+        text-align: center;
+      }
+
+      #header-img {
+        
+      }
+
+      #nav-bar {
+        position: fixed;
+        padding-bottom: 300px;
+      }
+
+      #nav-bar li {
+        display: inline-block;
+        padding-left: 700px;
+      }
+
+      .nav-link {
+        
+      }
+
+      #video {
+        padding-left: 470px;
+      }
+
+      #form {
+
+      }
+
+      #submit {
+
+      }
+
+      h2 {
+        display: flex;
+        justify-content: center;
+      }
+  </style>
+</head>
+
+<body>
+    <h1 id="header">Fluid Acrylic Paint
+      <br>
+      <img id="header-img" src="ink.jpg" alt="A heart shape within an ink splatter."/>
+      <nav id="nav-bar">
+          <ul>
+              <li>
+                <a class="nav-link" href="#About">About</a>
+              </li>
+
+              <li>
+                <a class="nav-link" href="#Reviews">Reviews</a>
+              </li>
+
+              <li>
+                <a class="nav-link" href="#More">More</a>
+              </li>
+          </ul>
+        </nav>
+    </h1>
+
+    <br>
+
+    <!--I tried using an embed tag with a URL here, but it didn't work for some reason.  It said something along the lines of "Youtube refused"?-->
+    <iframe id="video" width="560" height="315"
+      src="https://www.youtube.com/embed/arwHVip0-RI" frameborder="0" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+    <h2>About</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+
+    <h2>Reviews</h2>
+    <p>
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <h2>More</h2>
+    <p>
+      If you have questions, concerns, or other comments, please give us your email down below so we can get in touch with you.
+    </p>
+
+    <form id="form" action="#" method="POST">
+      <input type="email" id="email" name="email" placeholder="Your email here">
+      <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
